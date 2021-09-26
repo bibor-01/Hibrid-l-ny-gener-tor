@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+main {
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+}
+header {
+  height: 20px;
+}
+article h1{
+  background-image: url("kepek/_DSC5333.jpeg");
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+}
+
+body {
+  background-color: gray;
+}
+form {
+  padding: 10px;
+}
