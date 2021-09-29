@@ -1,0 +1,35 @@
+@media print {
+  article,header,footer,form{
+    display: none;
+  }
+  @page {
+    margin: 2cm 1.5cm; 
+    
+  }
+  #csakNyomtataskor{
+    display: block;
+}
+  body {
+    color: black;
+    background: white;
+    font-family: 'Times New Roman', Verdana, Serif;
+    font-size: 20pt;
+  }
+  table, td, th {  
+    border: none;
+    border-radius: none;
+  }
+  table {
+    border: none;
+    border-radius: none;
+    width: none;
+    padding: none;
+  }
+  th, td {
+    box-shadow:none;
+    padding: none; 
+  }
+  td:nth-child(1) {background-color:none}
+  
+
+}

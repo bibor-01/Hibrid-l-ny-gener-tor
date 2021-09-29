@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stilus.css" />
-    <link rel="stylesheet" href="nyomtatas.css" />
+    <link rel="stylesheet" href="nyomtatas.css" type="text/css" media="screen, print" />  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="feladatok.js"></script>
     <title>Trollok</title>
@@ -13,15 +13,16 @@
   <body>
     <main>
       <header></header>
-      <article><h1>Hibrid lény generátor</h1></article>
+      <article><h1 id="cim">Hibrid lény generátor</h1></article>
+      <h1 id="csakNyomtataskor">Hibrid lény generátor</h1>
       <form>
         <label>Válassz osztályt!</label>
-        <select name="osztaly" id="osztaly">
-          <option value="nev1">GRA1A</option>
+        <select name="osztaly" id="Osztaly">
+          <option value="nev1"> GRA1A</option>
           <option value="nev2">SZF2A</option>
-          <option value="nev3">FT1B</option>
+          <option value="nev3" selected>FT1B</option>
         </select>
-        <input type="button" id="nyomtat" value="Nyomtat" />
+        <button id="nyomtat">Nyomtat</button>
       </form>
       <section></section>
       <footer></footer>
